@@ -37,4 +37,14 @@ public class Deck {
 		}
 	}
 
+	public void shuffleDeck() {
+		Random random = new Random();
+		// Shuffle with Fisher-Yates Algorithm 
+		for(int i = deck.size()-1;i >= 0;i--){
+			int randNo = random.nextInt(i+1);
+			swap(deck,i,randNo);
+		}
+	}
+	
+	
 }
