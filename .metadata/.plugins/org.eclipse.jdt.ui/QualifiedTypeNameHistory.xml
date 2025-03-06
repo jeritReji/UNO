@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="com.games.app.UNO.Colors"/>
+    <fullyQualifiedTypeName name="com.google.protobuf.Field.Cardinality"/>
+    <fullyQualifiedTypeName name="com.games.app.UNO.Values"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.games.app.UNO.Card"/>
+    <fullyQualifiedTypeName name="com.games.app.UNO.Deck"/>
+</qualifiedTypeNameHistroy>

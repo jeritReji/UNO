@@ -1,0 +1,43 @@
+package com.games.app.UNO;
+
+enum Colors {
+		BLACK,
+		RED,
+		YELLOW,
+		BLUE,
+		GREEN;
+	}
+	
+enum Values {
+	ZERO,
+	ONE,
+	TWO,
+	THREE,
+	FOUR,
+	FIVE,
+	SIX,
+	SEVEN,
+	EIGHT,
+	NINE,
+	SKIP,
+	REVERSE,
+	DRAW_TWO,
+	WILD,
+	WILD_DRAW_FOUR;
+}
+
+public class Card {
+	private Colors color;
+	private Values value;
+	public Card(Colors color,Values value) {
+		this.color = color;
+		this.value = value;
+	}
+	
+	public Colors getColor() {
+		return color;
+	}	
+	public Values getValue() {
+		return value;
+	}
+}
