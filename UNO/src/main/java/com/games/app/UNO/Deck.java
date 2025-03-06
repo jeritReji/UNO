@@ -46,5 +46,25 @@ public class Deck {
 		}
 	}
 	
+	private void swap(ArrayList<Card> deck,int A, int B) {
+		Card tempCard = deck.get(A);
+		deck.set(A,deck.get(B)); 
+		deck.set(B,tempCard);
+	}
+
+	public ArrayList<Card>	getDeck() {
+		return deck;
+	}
 	
+	public void printDeck() {
+		Iterator<Card> iterator = deck.iterator();
+		while(iterator.hasNext()) {
+			Card card = iterator.next();
+			Colors color = card.getColor();
+			Values value = card.getValue();
+			System.out.println(color);
+			System.out.println(value);
+			System.out.println("-----------------------------");
+		}
+	}
 }
